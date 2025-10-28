@@ -23,12 +23,11 @@
 
           <?php if (isset($_SESSION['username'])) { ?>
             <li class="nav-item">
-            <a href="../logout.php" class="btn btn-danger btn-sm ms-2">🚪 Logout</a>
-
+              <a href="logout.php" class="btn btn-danger btn-sm ms-2">🚪 Logout</a>
             </li>
           <?php } else { ?>
             <li class="nav-item">
-              <a href="web/logout.php" class="btn btn-danger">🚪 Logout</a>
+              <a href="login.php" class="btn btn-primary btn-sm ms-2">🔑 Login</a>
             </li>
           <?php } ?>
         </ul>
